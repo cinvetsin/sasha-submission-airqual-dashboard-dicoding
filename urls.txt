@@ -1,2 +1,5 @@
 Link to the deployed dashboard:
 https://sasha-submission-airqual-dashboard.streamlit.app/
+
+Link to the github repo:
+https://github.com/cinvetsin/sasha-submission-airqual-dashboard-dicoding/tree/main
