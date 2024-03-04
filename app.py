@@ -50,8 +50,13 @@ def plot_pollutant_levels(df_all, pollutants, colors):
 
             with sub_tab2:
                 # Plotting pollutant levels by wind direction
+                pollutant_data_by_wd = pollutant_levels_by_wd[selected_pollutant]
+
+                # Sort the data in descending order based on the median levels
+                sorted_pollutant_data_by_wd = pollutant_data_by_wd.sort_values(ascending=False)
+
                 plt.figure(figsize=(10, 6))
-                pollutant_levels_by_wd[selected_pollutant].plot(kind='bar', color='mediumpurple')
+                sorted_pollutant_data_by_wd.plot(kind='bar', color='mediumpurple')
                 plt.title(f'{selected_pollutant} Levels by Wind Direction')
                 plt.xlabel('Wind Direction')
                 plt.ylabel('Median Level')
