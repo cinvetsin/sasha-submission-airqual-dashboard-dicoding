@@ -16,3 +16,10 @@ pip install numpy pandas scipy matplotlib seaborn jupyter streamlit
 ```
 # Run deployed dashboard
 You can visit this link: https://sasha-submission-airqual-dashboard.streamlit.app/
+
+# Files needed for deployed dashboard
+> [all_data.csv](cinvetsin/sasha-submission-airqual-dashboard-dicoding) for cleaned and gathered dataset
+<br>
+[app.py](https://github.com/cinvetsin/sasha-submission-airqual-dashboard-dicoding/blob/main/app.py) to run streamlit
+<br>
+[requirements.txt](https://github.com/cinvetsin/sasha-submission-airqual-dashboard-dicoding/blob/main/requirements.txt) to setup the pipeline and import the libraries
